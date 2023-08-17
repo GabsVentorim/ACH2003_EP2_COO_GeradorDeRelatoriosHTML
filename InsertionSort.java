@@ -1,4 +1,3 @@
-
 import java.util.List;
 
 public class InsertionSort implements Algoritmo {
@@ -12,8 +11,8 @@ public class InsertionSort implements Algoritmo {
 			int j = (i - 1);
 
 			while (j >= ini) {
-
-				if (criterio.compara(inicial, produtos.get(j))) {
+ 
+				if (criterio.compara(produtos.get(j), inicial)) {
 					produtos.set(j + 1, produtos.get(j));
 					j--;
 				} else

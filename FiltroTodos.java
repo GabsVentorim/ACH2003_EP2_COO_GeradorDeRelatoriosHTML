@@ -6,4 +6,5 @@ public class FiltroTodos implements Filtro {
     public boolean filtra(Produto produto, List<String> argFiltro) {
         return true;
     }
+    
 }

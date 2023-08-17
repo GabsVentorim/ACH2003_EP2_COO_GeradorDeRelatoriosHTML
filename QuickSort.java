@@ -1,5 +1,3 @@
-
-
 import java.util.Collections;
 import java.util.List;
 
@@ -12,7 +10,7 @@ public class QuickSort implements Algoritmo {
 
 		while (true) {
         do {
-            j--;
+            j--; 
         } while (criterio.compara(produtos.get(j), produtos.get(ini)));
 
         do {
